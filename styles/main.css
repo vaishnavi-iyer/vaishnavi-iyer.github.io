@@ -1,11 +1,17 @@
 body{
   background: white;
   color: black;
-  margin:0px;
+  margin:0;
+  font-family:arial;
 }
 
 Header{
   background: black;
+  color: white;
+  display: inline;
+}
+
+Header h2{
   color: white;
   display: inline;
 }
@@ -38,4 +44,9 @@ background: black;
 text-align: center;
 clear: both;
 vertical-align: bottom;
+color: white;
+}
+
+footer a{
+  color: white;
 }
