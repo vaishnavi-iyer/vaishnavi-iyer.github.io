@@ -7,6 +7,7 @@ body{
 Header{
   background: black;
   color: white;
+  display: inline;
 }
 
 nav ul{
@@ -16,7 +17,7 @@ display: inline;
 }
 
 nav ul li{
-background: #999;
+background: black;
 color: white;
 display: inline-block;
 line-style-type: none;
@@ -33,5 +34,8 @@ float: left;
 }
 
 footer{
+background: black;
+text-align: center;
 clear: both;
+vertical-align: bottom;
 }
