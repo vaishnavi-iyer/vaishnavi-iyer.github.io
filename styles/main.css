@@ -6,14 +6,14 @@ body{
 }
 
 Header{
-  background: black;
+  background: #999;
   color: white;
+  padding: 5px 15px 0px 15x;
 }
 
 Header h2{
   color: white;
   display: inline;
-  padding: 5px 15px;
   margin: 0;
 }
 
