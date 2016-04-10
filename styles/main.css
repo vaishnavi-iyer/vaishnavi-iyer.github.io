@@ -7,11 +7,13 @@ body{
 
 Header{
   padding: 5px 15px 0px 15x;
+  background: black
 }
 
 Header h2{
   margin: 0;
   display: inline-block;
+  color: white;
 }
 
 nav ul{
