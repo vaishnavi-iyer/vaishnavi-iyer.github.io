@@ -1,14 +1,13 @@
 body{
   background: white;
   color: black;
-  margin:0;
+  margin:10;
   font-family:arial;
 }
 
 Header{
   background: black;
   color: white;
-  display: inline;
 }
 
 Header h2{
