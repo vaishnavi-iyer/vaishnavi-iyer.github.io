@@ -6,21 +6,18 @@ body{
 }
 
 Header{
-  background: #999;
-  color: white;
   padding: 5px 15px 0px 15x;
 }
 
 Header h2{
-  color: white;
-  display: inline;
   margin: 0;
+  display: inline-block;
 }
 
 nav ul{
 margin: 0;
 padding: 0px 0px 0px 15px;
-display: inline;
+display: inline-block;
 }
 
 nav ul li{
