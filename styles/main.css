@@ -35,9 +35,16 @@ nav ul li a{
 color: White;
 }
 
-.col{
-background: white;
+.col1{
+background: #999;
 float: left;
+padding: 15px;
+}
+
+.col2{
+background: #999;
+float: right;
+padding:15px;
 }
 
 footer{
