@@ -1,0 +1,37 @@
+body{
+  background: white;
+  color: black;
+  margin:0px;
+}
+
+Header{
+  background: black;
+  color: white;
+}
+
+nav ul{
+margin: 0;
+padding: 0px 0px 0px 15px;
+display: inline;
+}
+
+nav ul li{
+background: #999;
+color: white;
+display: inline-block;
+line-style-type: none;
+padding: 5px 15px;
+}
+
+nav ul li a{
+color: White;
+}
+
+.col{
+background: white;
+float: left;
+}
+
+footer{
+clear: both;
+}
