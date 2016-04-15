@@ -4,7 +4,7 @@ html{
 body{
   background: white;
   color: black;
-  margin:10;
+  margin-right:10px;
   font-family:arial;
   height:100%;
 }
@@ -60,6 +60,11 @@ padding: 15px;
 background: #999;
 float: right;
 padding:15px;
+}
+
+.box-model-image{
+float: left;
+padding: 0px 10px 0px 10px;
 }
 
 footer {
