@@ -8,7 +8,7 @@ body{
   font-family:arial;
   height:100%;
 }
-#wrap {min-height: 100%;}
+/*#wrap {min-height: 100%;}*/
 
 #main {
   overflow:auto;
@@ -32,6 +32,7 @@ background: #33BEBE;
 .nav-tab {
     position: relative; /* Adjust the size of the content in the dropdown*/
     display: inline-block;
+    margin: 0;
 }
 
 /* Show the dropdown menu on hover */
