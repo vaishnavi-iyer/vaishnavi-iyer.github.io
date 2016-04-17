@@ -12,12 +12,8 @@ body{
 
 #main {
   overflow:auto;
-  padding-bottom: 30px;
-  }  /* must be same height as the footer */
-
-Header{
-  padding: 5px 15px 0px 15x;
-}
+  padding-bottom: 30px; /* must be same height as the footer */
+  }  
 
 Header h2{
   font-family: 'apple chancery', cursive;
@@ -28,38 +24,59 @@ Header h2{
   text-align: center;
 }
 
-.nav-container{
+.nav-bar{
 background: #33BEBE;
-align-self: center;
 }
 
-nav ul{
-margin: 0;
-padding: 0px 5px 0px 5px;
-alignment:center;
+/* The container <div> - needed to position the dropdown content */
+.nav-tab {
+    position: relative; /* Adjust the size of the content in the dropdown*/
+    display: inline-block;
 }
 
-nav ul li{
-color: white;
-display: inline-block;
-line-style-type: none;
-padding: 5px 15px;
+/* Show the dropdown menu on hover */
+.nav-tab:hover .dropdown-content {
+    display: block; /* The content with in the drop down is in different lines, if flex, they will be parallel*/
 }
 
-nav ul li a{
-color: White;
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.nav-tab:hover .dropbtn {
+    background-color: #3e8e41;
 }
 
-.col1{
-background: #999;
-float: left;
-padding: 15px;
+/* Style The Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
 }
 
-.col2{
-background: #999;
-float: right;
-padding:15px;
+.dropbtn a{
+  color: White;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
 }
 
 .box-model-image{
