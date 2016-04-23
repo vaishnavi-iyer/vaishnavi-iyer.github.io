@@ -1,99 +1,133 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML CSS and DOM - 2</title>
+    <title>Vai's Blog</title>
     <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
-  
   <body>
-  <div id="wrap">
-    <header>
-      <nav>
-        <h2>Vai's Blog</h2>
-        <div class="nav-bar">
-
-          <div class="nav-tab"> 
-              <div class="dropbtn"> <a href= "https://vaishnavi-iyer.github.io""Home">Home</a> </div>
+    <div id="wrap">
+      <div id="main">
+        
+        <header class="header container">
+          <div class="row">
+            <div class="logo">
+              <img src="http://placehold.it/50x50" "Logo">
             </div>
 
-            <div class="nav-tab">
-              <div class="dropbtn"> <a href="c1-reflection-blog.html" "My Reflections">My Reflections</a> </div>
+            <div class="title">
+              <h4> Vai's Blog </h4>
             </div>
+          </div>
+        </header><!-- /header -->
 
-            <div class="nav-tab">
-              <div class="dropbtn"> <a href="c1-time-and-habits-blog.html" "My Habits and Time Management">My Habits and Time Management</a> </div>
-            </div>
-
-            <div class="nav-tab">
-              <div class="dropbtn"> <a href="c2-emotional-intelligence.html" "Emotional Intelligence">Emotional Intelligence</a> </div>
-            </div>
-
-            <div class="nav-tab">
-              <div class="dropbtn"> <u>Technical Blog </u></div>
-                <div class="dropdown-content">
-                <a href="t2-html-css-dom-p1.html" "HTML CSS and DOM">HTML CSS and DOM -1</a>
-                <a href="#" "HTML CSS and DOM">HTML CSS and DOM -2</a>
-                </div>
-              </div> 
-            </div>
-      
-        </div>
-      </nav>
-    </header>
+        <div class="container">
      
-    <div id="main">
+          <div class="navbar-spacer"></div> <!--Sapce between the menu and the title-->
+            <nav class="navbar"> <!-- navigation bar-->
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link"href= "../index.html""Home">Home</a></li>
+                  <li class="navbar-item"><a class="navbar-link"href= "blog-template.html""Blogs">Blogs</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="#""Projects"> Projects</a></li>
+                  <li class="navbar-item"><a class="navbar-link"href= "#""References">References</a></li>
+                  <li class="navbar-item"><a class="navbar-link"href= "#""About">About</a></li>
+                </ul>
+              </div>
+            </nav>     
+          </div>
 
-      <h2> <u> HTML CSS and DOM -2 </u> </h2>      
-      <h3> What is grid based design?</h3>
+          <div class="docs-section container">
  
-      <p>Grids are structure imposed on a mock-up layout/ design. They offer an effective design approach for site layouts and assist in communicating site’s main messages clearly to the end user. They help in creating an ordered hierarchy, proportional relationships, and clear visual paths for the eye to travel.
-      </p>
+            <h5 class="docs-header"> <u> HTML CSS and DOM -2 </u> </h5>     
+            <h6 class="docs-header"> What is grid based design?</h6>
+       
+            <p>Grids are structure imposed on a mock-up layout/ design. They offer an effective design approach for site layouts and assist in communicating site’s main messages clearly to the end user. They help in creating an ordered hierarchy, proportional relationships, and clear visual paths for the eye to travel.
+            </p>
 
-      <p>They main use or advantage that grid has is that, it makes it easy for developers to translate the mock-ups into a semantic code.
-      </p>
+            <p>They main use or advantage that grid has is that, it makes it easy for developers to translate the mock-ups into a semantic code.
+            </p>
 
-      <p>The Basic grid layout can be created and saved as a CSS framework file and that can be reused for creating codes in future.
-      </p>
+            <p>The Basic grid layout can be created and saved as a CSS framework file and that can be reused for creating codes in future.
+            </p>
 
-      <p>Grids also enable us to visualise the size of each part of a webpage.
-      </p>
+            <p>Grids also enable us to visualise the size of each part of a webpage.
+            </p>
 
-      <h3> What is all the hype about responsive webpage? </h3>
+            <h6 class="docs-header"> What is all the hype about responsive webpage? </h6>
+                
+            <p>Responsive web design (RWD) is basically a methodology to design websites keeping in mind optimal viewing and interaction experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to mobile phones). 
+            </p>
+
+            <p>A website designed, considering the Responsive design principles, easily adapts the layout to the viewing environment, the type and size of the display, the viewing orientation etc. 
+            </p>
+
+            <p>This can be done by using different concepts: <br>
+                a.  Media Queries: they allow the page to use different css style rules based on the characteristics of the device. <br>
+                b.  The fluid grid concept: Defines the pages in terms of relative units like percentage instead of absolute units like pixels. <br>
+                c.  The 12 column grid layout: this divides the display into 12 columns based on percentage.  This grid creates visual consistency between layouts, while allowing flexibility across a wide variety of designs.
+                Responsive web design is becoming more important as the amount of mobile traffic now accounts for more than half of total internet traffic. <br>
+            </p> 
+
+            <h6 class="docs-header"> What is semantic structure? </h6>
+
+            <p>A correctly defined html structure consists of html tags, head, body, and div tags. However, this tags have generic meaning and one can identify its design only by looking at the style sheet.
+            </p>
+
+            <p>Having tags that have a generic meaning irrespective of the type of webpage are very handy and help developers visualize the page easily. These tags are called semantic tags. Some examples of these tags are H1, H2, H3, H4, image and p (paragraph) tags. If there is an image tag on the page then one can easily expect that there will be an image on the page.
+            </p>
+
+            <h6 class="docs-header"> Any other points you found interesting and want to reflect on. </h6>
+
+            <p> The idea of creating frameworks is very exciting, basically a library of CSS files that will make creating webpages in future very easy.
+            </p>
+            
+          </div>
+
+          <section class="blog-list"> <h4> Blogs</h4>
+            <div class="value-props row">
+              <div class="four columns value-prop">
+                <a href="c1-reflection-blog.html""Reflections">
+                  <img class="value-img" src="http://placehold.it/50x50">
+                  Reflections 
+                </a>
+              </div>
+              <div class="four columns value-prop">
+                <a href="c1-time-and-habits-blog.html""Time &amp; Habits">
+                  <img class="value-img" src="http://placehold.it/50x50">
+                  Time &amp; Habits </a>
+              </div>
           
-      <p>Responsive web design (RWD) is basically a methodology to design websites keeping in mind optimal viewing and interaction experience—easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from desktop computer monitors to mobile phones). 
-      </p>
+              <div class="four columns value-prop">
+                <a href="c2-emotional-intelligence-blog.html""Emotional Intellingence">
+                  <img class="value-img" src="http://placehold.it/50x50">
+                  Emotional Intelligence 
+                </a>
+              </div>
+              <div class="value-props row">
+              <div class="four columns value-prop">
+                <a href="t2-html-css-dom-p1.html""HTML CSS &amp; DOM -1">
+                  <img class="value-img" src="http://placehold.it/50x50">
+                  HTML CSS &amp; DOM -1
+                </a>
+              </div>
+              <div class="four columns value-prop">
+                <a href="t2-html-css-dom-p2.html""HTML CSS &amp; DOM -2">
+                  <img class="value-img" src="http://placehold.it/50x50">
+                  HTML CSS &amp; DOM -2
+                </a>
+              </div>
+            </div>
+          </section>
 
-      <p>A website designed, considering the Responsive design principles, easily adapts the layout to the viewing environment, the type and size of the display, the viewing orientation etc. 
-      </p>
-
-      <p>This can be done by using different concepts: <br>
-          a.  Media Queries: they allow the page to use different css style rules based on the characteristics of the device. <br>
-          b.  The fluid grid concept: Defines the pages in terms of relative units like percentage instead of absolute units like pixels. <br>
-          c.  The 12 column grid layout: this divides the display into 12 columns based on percentage.  This grid creates visual consistency between layouts, while allowing flexibility across a wide variety of designs.
-          Responsive web design is becoming more important as the amount of mobile traffic now accounts for more than half of total internet traffic. <br>
-      </p> 
-
-      <h3> What is semantic structure? </h3>
-
-      <p>A correctly defined html structure consists of html tags, head, body, and div tags. However, this tags have generic meaning and one can identify its design only by looking at the style sheet.
-      </p>
-
-      <p>Having tags that have a generic meaning irrespective of the type of webpage are very handy and help developers visualize the page easily. These tags are called semantic tags. Some examples of these tags are H1, H2, H3, H4, image and p (paragraph) tags. If there is an image tag on the page then one can easily expect that there will be an image on the page.
-      </p>
-
-      <h3> Any other points you found interesting and want to reflect on. </h3>
-
-      <p> The idea of creating frameworks is very exciting, basically a library of CSS files that will make creating webpages in future very easy.
-      </p>
-
+      </div>
     </div>
-  </div>  
+
+    <div id="footer" class="container">
+            © 2016 Vaishnavi Iyer
+    </div>
+
   </body>
-
-  <footer>
-      © 2016 Vaishnavi Iyer | <a href="https://vaishnavi-iyer.github.io"> HOME </a>
-  </footer>
-  
 </html>
-
