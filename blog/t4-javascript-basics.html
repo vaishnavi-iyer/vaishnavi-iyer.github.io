@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Basics</title>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="main">
+        
+        <header class="header container">
+          <div class="row">
+            <div class="logo">
+              <img src="http://placehold.it/50x50" "Logo">
+            </div>
+
+            <div class="title">
+              <h4> Vai's Blog </h4>
+            </div>
+          </div>
+        </header><!-- /header -->
+
+        <div class="container">
+     
+          <div class="navbar-spacer"></div> <!--Sapce between the menu and the title-->
+            <nav class="navbar"> <!-- navigation bar-->
+              <div class="container">
+                <ul class="navbar-list">
+                  <li class="navbar-item"><a class="navbar-link"href= "../index.html""Home">Home</a></li>
+                  <li class="navbar-item"><a class="navbar-link"href= "blog-template.html""Blogs">Blogs</a></li>
+                  <li class="navbar-item"><a class="navbar-link" href="#""Projects"> Projects</a></li>
+                  <li class="navbar-item"><a class="navbar-link"href= "#""References">References</a></li>
+                  <li class="navbar-item"><a class="navbar-link"href= "#""About">About</a></li>
+                </ul>
+              </div>
+            </nav>     
+          </div>
+
+          <div class="docs-section container">
+ 
+            <h5 class="docs-header"> <u> Javascript Basics </u> </h5>     
+            <h6 class="docs-header">Comparing JavaScript to HTML and CSS</h6>
+       
+            <p>A good and beautifully designed webpage is a coherent combination of three main elements:<br>
+            1.  HTML <br>
+            2.  CSS and <br>
+            3.  JavaScript
+            </p>
+
+            <p>These elements work together with each other to give us our dream webpage.  It’s a balanced combination of “Structure, Style and Interactivity”.
+            </p>
+            <p>
+            HTML: Marks the content and is the lays building blocks to structure your webpage. Elements like the title, paragraphs and images etc are part of this.
+            </p>
+            <p>
+            CSS: It is used to stylise your webpage, it adds expression to the simple text. It dictates as to how your webpage will look like.
+            </p>
+            <p>
+            JavaScript: It tells the browser how it should respond to events. Events include clicks, changing values in form, zoom in & out etc.
+            </p>
+            <p>
+            The browser understand these three languages well and will load the webpages accordingly. These three work together in sync however, its best practise to keep them separate as it makes the code simpler and easy to understand and also neat.
+            </p>
+            <p>
+            While HTML and CSS are static parts of the webpage... JavaScript adds dynamic elements to it.
+            </p>
+
+            <h6 class="docs-header">Control flow and loops.</h6>
+                
+            <p>Computers are a really powerful being. But the only problem (actually kinda good thing) is that ‘THEY DO ONLY WHAT THEY ARE TOLD TO DO’.
+            </p>
+            <p>
+            Human beings are super power in the sense that they can tell the computers what to do ( if only it were that simple).
+            </p>
+            <p>
+            Coming back to the subject… we have to tell computer everything clearly and it will do it for us, and if we miss out some details… well it will still do what it understands best.
+            </p>
+            <p>
+            For example: if I have to automate the process of the computer brushing my teeth. And I tell the computer to please brush my teeth every day, guess what it will keep doing to everyday every min every sec. Because it doesn’t know when to stop. I need to tell the computer that please brush my teeth every day once in the morning after I get up (don’t dare wake me up). Simple.
+            </p>
+            <p>
+            But the computer doesn’t understand my words and I need to explain it. So I use the computers language.
+            </p>
+            <p>
+            Our options are: 1. For Loop, 2. While Loop, 3. do-while Loop 4. If/Else statements and 5 Switch Case.
+            </p>
+            <p>
+            Loops will basically make the computer check the condition multiple times and control is to determine when to come out of the loop. All of these can be used to do anything. Depends on how comfortable you are with the syntax. Like I said in the in the example you have to be explicit in your instructions otherwise the loops might run forever and can crash your computer. And to not let it crash we use the control statements.
+            </p>
+            <p>
+            Control flow is in itself a bigger concept which means to change control from place to another – it defines how the code will be executed. Like for example. If you are working and your concentration is at work and someone rings the door bell and this takes away your concentration to the doorbell but if the doorbell doesn’t ring you continue working. Control flow is a concept that kicks in here, but will leave that for later.
+            </p>
+
+            <h6 class="docs-header">The difference between accessing data from arrays and object literals.</h6>
+
+            <p>Array is like a folder-file that you have and you can store anything you want in there. You know that your bills are in the first folder, your letters in the second and so on.
+            </p>
+            <p>
+            Object Literals on the other hand is a drawer it can have a small box having your earrings, a big box having your necklace and a file having your documents and your wallet with you money &amp; cards.
+            </p>
+            <p>
+            To tell someone to get my bills from the folder-file, I tell them can you please get stuff from the folder 1 of the folder file. 
+            And to tell someone to get my earrings, I need to say that please get the earrings from the small box in the drawer.
+            </p>
+            <p>
+            Now you might think it’s easier to say get from 1 instead of saying get from the small box. Well kind of true but it depends on how much information you have to deal with. 
+            </p>
+            <p>
+            For e.g. If the folder-file has hundred folder, it’s hard to remember what is there in which folder and saying box and wallet seems simpler but for a smaller set of logically simpler data, addressing it with numbers will be simpler and hence both have their advantages and disadvantages and should be user appropriately.
+            </p>
+
+            <h6 class="docs-header">Explain what functions are and why they are useful.</h6>
+
+            <p>A function is basically a group of statements that together perform a task. This is a very important aspect of coding as it can save us a lot of time and energy when the tasks are repetitive.
+            </p>
+            <p> For example, if you are writing a program to sort a piece of information in a file. It’s simple you can write that logic but imagine your boss says you have to do this for all the files in your office. Now this is hard, instead I will just make a function a pass a parameter which in this case would be file name. Now whenever I have to sort the files, I just have to call the function and tell the file name.
+            </p>
+
+          </div>
+
+          <section class="blog-list"> <h4> Blogs</h4>
+            <div class="value-props row">
+              <div class="four columns value-prop">
+                <a href="c1-reflection-blog.html""Reflections">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  Reflections 
+                </a>
+              </div>
+              <div class="four columns value-prop">
+                <a href="c1-time-and-habits-blog.html""Time &amp; Habits">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  Time &amp; Habits </a>
+              </div>
+          
+              <div class="four columns value-prop">
+                <a href="c2-emotional-intelligence.html""Emotional Intellingence">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  Emotional Intelligence 
+                </a>
+              </div>
+              <div class="four columns value-prop">
+                <a href="c3-meditation-process.html""design to web">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  Meditation Process
+                </a>
+              </div>
+              <div class="value-props row">
+              <div class="four columns value-prop">
+                <a href="t2-html-css-dom-p1.html""HTML CSS &amp; DOM -1">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  HTML CSS &amp; DOM -1
+                </a>
+              </div>
+              <div class="four columns value-prop">
+                <a href="t2-html-css-dom-p2.html""HTML CSS &amp; DOM -2">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  HTML CSS &amp; DOM -2
+                </a>
+              </div>
+              <div class="four columns value-prop">
+                <a href="t3-design-to-web-blog.html""design to web">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  Design to web
+                </a>
+              </div>
+              <div class="four columns value-prop">
+                <a href="t4-javascript-basics.html""design to web">
+                  <img class="value-img" src="http://placehold.it/100x100">
+                  JavaScript Basics
+                </a>
+              </div>
+            </div>
+          </section>
+
+      </div>
+    </div>
+
+    <div id="footer" class="container">
+            © 2016 Vaishnavi Iyer
+    </div>
+
+  </body>
+</html>
