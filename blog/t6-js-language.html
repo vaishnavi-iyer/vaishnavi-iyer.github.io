@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Mindfulness</title>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <script src = '../scripts/navigation-bar.js' type = 'text/javascript' charSet = 'utf-8' async defer>
+    </script>
+    <script src = '../scripts/blog-list.js' type = 'text/javascript' charSet = 'utf-8' async defer>
+    </script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="main">
+        
+        <header class="header container">
+          <div class="row">
+            <div class="logo">
+              <img src="http://placehold.it/50x50" "Logo">
+            </div>
+
+            <div class="title">
+              <h4> Vai's Blog </h4>
+            </div>
+          </div>
+        </header><!-- /header -->
+
+        <div class="container">
+          <div id="navigation-bar">
+          <!-- To display the navigation bar refer navigation-bar.js file-->
+          </div>     
+        </div>
+
+          <div class="docs-section container">
+            <h5 class="docs-header"> <u> JavaScript - some more of it </u> </h5>      
+            <h6 class="docs-header">Date: <em>15<sup>th</sup> May 2016</em></h6>
+            <p>My dear friend why do you always keep asking me these questions. Now that you have asked be prepared to get a little confused ;)
+            </p>
+            <p>
+            Every JavaScript statement is composed of certain variable, strings and weird symbols just like how English uses words and punctuations. Just like any other language, you need to practise it to master it.
+            </p>
+            <p>
+            A few of these are:
+            </p>
+            <h6 class="docs-header">Parentheses () </h6>
+            
+            <p>it is basically used only for two things, the first is to group a set of instructions typically mathematical and the second it contains the function arguments.
+            Hmm now you must be thinking why group things, I’ll give you an e.g.
+            </p>>
+            <p>
+            Try calculating 3-2*4+5 the answer would most certainly evaluate to 0 but you wanted the subtraction to take place first so what can you do, use parenthesis, just like in maths (3-2)*4+5 and this would evaluate to 9.
+            </p>
+            <p>
+            This is where we do grouping.
+            </p>
+            <p>
+            Now if you are wondering what a function is, go back to my JavaScript Basics blog, I most certainly remember explaining it to you. So the parenthesis is used to contain the arguments that are passed into a function.
+            </p>
+            <p>
+            So if you have two numbers, and you need to find which one is greater and which one is smaller you can do it using functions, the function will do that for you but how does it know which numbers to compare. These numbers need to be given to the function and while giving those numbers, you contain it in a parenthesis and give it to the function.
+            </p>
+            <p class="codeEg">
+            function findSmallerNumber (a,b) = { <br>
+            if (a === b)<br>
+            {<br>
+             console.log(“ Numbers are equal”);<br>
+            }<br>
+            else if (a >b)<br>
+            {<br>
+            console.log(b + “is smaller”);<br>
+            }<br>
+            else<br>
+            {<br>
+            console.log(a + “is smaller”);<br>
+            }<br>
+            To invoke this function, the function is called as<br>
+            findSmallerNumber (5, 7)<br>
+            This will compare the numbers and the result will be “5 is smaller”<br>
+            </p>
+            
+            
+            <h6 class="docs-header">brackets []</h6>
+            <p>The only places I think we use the brackets are is to denote arrays and while accessing variables from an array or an object.
+            </p>
+            <p>
+            The array and object definition is something I have explained to you in the JavaScript Basics blog. 
+            Defining an array. 
+            </p>
+            <p class="codeEg">
+            var a = [“0”, “1”, “2”, “3”]
+            </p>
+            <p>
+            Now if I need to access the variable “3” I can access it as a[3] and it is similar for accessing the objects.
+            </p>
+
+            <h6 class="docs-header">braces {}</h6>
+            <p>braces are used to group multiple statements together to define an execution sequence. Like multiple statements in a loop or a function are defined in the brace. 
+            </p>
+            <p>
+            One more important use of brace is to define objects
+            </p>
+            <p>
+            e.g.
+            </p>
+            <p class="codeEg"> 
+            var contact = { <br>
+            “name1” : “contact1”, <br>
+            “name2” : “contact2”, <br>
+            “name3” : “contact3” <br>
+            } <br>
+            </p>
+
+            <h6 class="docs-header">Single ' ' and Double Quotes " "</h6>
+            <p>More often than not you can see yourself using the quotes interchangeably. They are basically used to contain strings.
+            But there is one ground rule that while defining a string you need to be consistent with the quotes at the start and end of the string. They CANNOT be different.
+            </p>
+            <p>
+            Also, if you are planning to use a certain quote as part of the string like if you are quoting someone literally and want to use the double quotes then it is a good idea to use the single quotes while defining the string or if you plan to use apostrophe in your string try to use double quotes while defining it.
+            </p>
+            <p>
+            Also, these quotes are also used while defining objects and access object variables and that is when you need to remember to use double quotes. Most JSON libraries requires you to use double quotes while defining objects and it’s good to get into a practise of that. 
+            </p> 
+            <p> e.g.
+            </p>
+            <p class="codeEg"> 
+            var contact = { <br>
+            “name1” : “contact1”, <br>
+            “name2” : “contact2”, <br>
+            “name3” : “contact3” <br>
+            } <br>
+            </p>  
+
+           
+          </div>
+
+        <section id = "blogList" class="blog-list"> 
+        </section>
+
+
+      </div>
+    </div>
+
+    <div id="footer" class="container">
+            © 2016 Vaishnavi Iyer
+    </div>
+
+  </body>
+</html>
