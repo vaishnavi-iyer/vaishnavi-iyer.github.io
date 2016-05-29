@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaSript -Scope</title>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <script src = '../scripts/navigation-bar.js' type = 'text/javascript' charSet = 'utf-8' async defer>
+    </script>
+    <script src = '../scripts/blog-list.js' type = 'text/javascript' charSet = 'utf-8' async defer>
+    </script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div id="main">
+        
+        <header class="header container">
+          <div class="row">
+            <div class="logo">
+              <img src="http://placehold.it/50x50" "Logo">
+            </div>
+
+            <div class="title">
+              <h4> Vai's Blog </h4>
+            </div>
+          </div>
+        </header><!-- /header -->
+
+        <div class="container">
+          <div id="navigation-bar">
+          <!-- To display the navigation bar refer navigation-bar.js file-->
+          </div>     
+        </div>
+
+          <div class="docs-section container">
+            <h5 class="docs-header"> <u> JavaScript - Scope </u> </h5>      
+            <h6 class="docs-header">Date: <em>29<sup>th</sup> May 2016</em></h6>
+            <p>Scope in literal sense means boundaries.
+            </p>
+            <p>
+            As you know, everything everywhere is determined by boundaries.
+            </p>
+            <p>
+            The variables in JavaScript is also not an exception to this universal boundary rules. It is classified into two categories.<br>
+            a.  Global variables <br>
+            b.  Local variables <br>
+            </p>
+            <p>
+            Global variables are defined in the main context of the program and is visible throughout the program where as local variables are local to a function and are not accessible outside the function.
+            </p>
+            <p>
+            It is also applicable to functions definitions. If a function is defined in the main loop, it is accessible throughout the code and if it is defined in a function, it is accessible to all the child functions.
+            </p>
+            <p>
+            The best analogy for this would be if a man has made money, his kids and wife have a right to a share, and even grandkids have a right to share but the reverse is not true. Pretty much, scope is the same. 
+            </p> 
+          
+          </div>
+
+        <section id = "blogList" class="blog-list"> 
+        </section>
+
+
+      </div>
+    </div>
+
+    <div id="footer" class="container">
+            © 2016 Vaishnavi Iyer
+    </div>
+
+  </body>
+</html>
